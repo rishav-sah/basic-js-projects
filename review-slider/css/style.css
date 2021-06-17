@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #e3daf7;
+}
+
+.container {
+  width: 100%;
+}
+
+.title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 4rem;
+}
+
+.title__underline {
+  width: 5rem;
+  height: 0.25rem;
+  background: #3e89be;
+  margin: 0 auto;
+}
+
+/* review card */
+.review {
+  background: #fff;
+  margin: 0 auto;
+  max-width: 425px;
+  padding: 2rem;
+  text-align: center;
+  box-shadow: 2px 2px 20px 0px rgba(0, 0, 0, 0.51);
+  border-radius: 5px;
+}
+
+.review__img {
+  border-radius: 50%;
+  height: 100px;
+  margin: 0 auto;
+  width: 100px;
+}
+
+.profile__img {
+  border-radius: 50%;
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.review__author {
+  margin: 0.5rem 0;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
+
+.review__job {
+  margin: 0.5rem 0;
+  font-weight: 700;
+  color: #c2acac;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.review__info {
+  text-align: justify;
+  color: #705d5d;
+}
+
+.review__btn {
+  margin: 1rem 0;
+}
+
+.btn__previous,
+.btn__next {
+  background: transparent;
+  border: none;
+  color: #49a6e9;
+  cursor: pointer;
+  font-size: 1rem;
+  margin: 0 0.5rem;
+}
+
+.btn__random {
+  background: transparent;
+  border-radius: 10px;
+  border: 2px solid #49a6e9;
+  cursor: pointer;
+  font-weight: 700;
+  padding: 8px 12px;
+}
